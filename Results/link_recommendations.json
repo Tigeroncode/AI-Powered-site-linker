@@ -1,0 +1,80 @@
+{
+  "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research": [
+    {
+      "target_url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "target_title": "Machine learning",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.732,
+      "recommended_anchor": "Machine Learning",
+      "relevance_reason": "Related Machine Learning content"
+    }
+  ],
+  "https://en.wikipedia.org/wiki/Timeline_of_machine_learning": [
+    {
+      "target_url": "https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence",
+      "target_title": "Timeline of artificial intelligence",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.752,
+      "recommended_anchor": "Timeline Of Artificial Intelligence",
+      "relevance_reason": "Related Machine Learning content"
+    }
+  ],
+  "https://en.wikipedia.org/wiki/Machine_learning": [
+    {
+      "target_url": "https://en.wikipedia.org/wiki/Outline_of_machine_learning",
+      "target_title": "Outline of machine learning",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.881,
+      "recommended_anchor": "Outline Of Machine Learning",
+      "relevance_reason": "Related Machine Learning content"
+    }
+  ],
+  "https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence": [
+    {
+      "target_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "target_title": "Artificial intelligence",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.812,
+      "recommended_anchor": "Artificial Intelligence",
+      "relevance_reason": "Related Machine Learning content"
+    },
+    {
+      "target_url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_industry",
+      "target_title": "Artificial intelligence in industry",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.754,
+      "recommended_anchor": "Artificial Intelligence In Industry",
+      "relevance_reason": "Related Machine Learning content"
+    }
+  ],
+  "https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations": [
+    {
+      "target_url": "https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning",
+      "target_title": "International Conference on Machine Learning",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.801,
+      "recommended_anchor": "International Conference On Machine Learning",
+      "relevance_reason": "Related Machine Learning content"
+    }
+  ],
+  "https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence": [
+    {
+      "target_url": "https://en.wikipedia.org/wiki/Timeline_of_machine_learning",
+      "target_title": "Timeline of machine learning",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.756,
+      "recommended_anchor": "Timeline Of Machine Learning",
+      "relevance_reason": "Related Machine Learning content"
+    }
+  ],
+  "https://en.wikipedia.org/wiki/Journal_of_Machine_Learning_Research": [
+    {
+      "target_url": "https://en.wikipedia.org/wiki/List_of_artificial_intelligence_journals",
+      "target_title": "List of artificial intelligence journals",
+      "target_category": "Machine Learning",
+      "similarity_score": 0.773,
+      "recommended_anchor": "List Of Artificial Intelligence Journals",
+      "relevance_reason": "Related Machine Learning content"
+    }
+  ]
+}

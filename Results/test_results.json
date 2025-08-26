@@ -1,0 +1,32 @@
+{
+  "data_quality": {
+    "total_pages": 1098,
+    "pages_with_content": 1098,
+    "pages_with_links": 1098,
+    "unique_categories": 8,
+    "data_completeness": 1.0
+  },
+  "embedding_quality": {
+    "embeddings_generated": 1098,
+    "embedding_dimension": 384,
+    "consistent_dimensions": true,
+    "chromadb_count": 1098
+  },
+  "recommendation_quality": {
+    "pages_with_recommendations": 7,
+    "total_recommendations": 8,
+    "avg_similarity": 0.782625,
+    "high_quality_ratio": 0.375,
+    "coverage_ratio": 0.007972665148063782
+  },
+  "injection_quality": {
+    "injection_success_rate": 0.0,
+    "tests_performed": 5
+  },
+  "sitemap_quality": {
+    "sitemaps_generated": 8,
+    "total_pages_in_sitemaps": 1098,
+    "has_sitemap_index": true,
+    "avg_pages_per_sitemap": 137.25
+  }
+}

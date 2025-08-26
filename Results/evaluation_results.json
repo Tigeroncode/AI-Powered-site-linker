@@ -1,0 +1,25 @@
+{
+  "coverage_metrics": {
+    "total_stale_pages": 7,
+    "pages_with_recommendations": 7,
+    "coverage_percentage": 100.0,
+    "total_recommendations": 8,
+    "avg_recommendations_per_page": 1.14
+  },
+  "quality_metrics": {
+    "avg_similarity_score": 0.783,
+    "median_similarity_score": 0.764,
+    "min_similarity_score": 0.732,
+    "max_similarity_score": 0.881
+  },
+  "similarity_distribution": {
+    "high_quality": 3,
+    "medium_quality": 5,
+    "low_quality": 0
+  },
+  "quality_grades": {
+    "excellent": "37.5%",
+    "good": "62.5%",
+    "needs_improvement": "0.0%"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://your-website.com/sitemap_machine_learning.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://your-website.com/sitemap_web_development.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://your-website.com/sitemap_seo.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://your-website.com/sitemap_python_programming.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://your-website.com/sitemap_data_science.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://your-website.com/sitemap_cloud_computing.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://your-website.com/sitemap_digital_marketing.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://your-website.com/sitemap_e_commerce.xml</loc>
+    <lastmod>2025-08-26</lastmod>
+  </sitemap>
+</sitemapindex>

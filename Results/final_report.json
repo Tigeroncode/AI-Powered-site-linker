@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "name": "AI-Powered Internal Linking & Sitemap Generation",
+    "completion_date": "2025-08-26T08:38:22.401875",
+    "total_processing_time": "9 days",
+    "platform": "Google Colab"
+  },
+  "data_summary": {
+    "total_pages_processed": 1098,
+    "embeddings_generated": 1098,
+    "stale_pages_identified": 878,
+    "recommendations_created": 7,
+    "sitemaps_generated": 8
+  },
+  "performance_metrics": {
+    "coverage_metrics": {
+      "total_stale_pages": 7,
+      "pages_with_recommendations": 7,
+      "coverage_percentage": 100.0,
+      "total_recommendations": 8,
+      "avg_recommendations_per_page": 1.14
+    },
+    "quality_metrics": {
+      "avg_similarity_score": 0.783,
+      "median_similarity_score": 0.764,
+      "min_similarity_score": 0.732,
+      "max_similarity_score": 0.881
+    },
+    "similarity_distribution": {
+      "high_quality": 3,
+      "medium_quality": 5,
+      "low_quality": 0
+    },
+    "quality_grades": {
+      "excellent": "37.5%",
+      "good": "62.5%",
+      "needs_improvement": "0.0%"
+    }
+  },
+  "system_components": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "vector_database": "ChromaDB",
+    "similarity_threshold": 0.7,
+    "max_recommendations_per_page": 5,
+    "sitemap_format": "XML 0.9"
+  },
+  "files_generated": {
+    "data_files": [
+      "website_data.csv",
+      "website_data.pkl",
+      "embeddings_data.pkl",
+      "recommendations.json",
+      "recommendations.pkl"
+    ],
+    "sitemap_files": [
+      "machine learning",
+      "web development",
+      "seo",
+      "python programming",
+      "data science",
+      "cloud computing",
+      "digital marketing",
+      "e-commerce"
+    ],
+    "test_files": [
+      "evaluation_results.json",
+      "comprehensive_test_results.json",
+      "sitemap_generation_summary.json"
+    ]
+  },
+  "usage_instructions": {
+    "step_1": "Load recommendations.json for link suggestions",
+    "step_2": "Use generated XML sitemaps for search engine submission",
+    "step_3": "Implement HTML injection code on your website",
+    "step_4": "Monitor performance using evaluation metrics"
+  }
+}
