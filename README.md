@@ -1,5 +1,5 @@
 # Intelli-internal-linking
-An ai script that automates  sitemaps for creating backlinks that better the google search index scores for websites 
+An ai script that automates  sitemaps for creating backlinks that better the google search index scores for websites (sourced from AI) 
 
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
