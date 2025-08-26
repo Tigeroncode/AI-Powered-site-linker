@@ -409,7 +409,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repository if it helped optimize your website's internal linking!**
 
-**Built with ❤️ and AI by [Your Name]**
+**Built with ❤️ and AI by Tigeroncodeeeahh**
 <span style="display:none">[^1][^2][^3][^4][^5][^6][^7][^8][^9]</span>
 
 <div style="text-align: center">⁂</div>
