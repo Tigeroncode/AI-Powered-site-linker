@@ -36,7 +36,7 @@ This project solves critical SEO challenges that enterprise websites face:
 - **Multiple Output Formats**: JSON recommendations, XML sitemaps, HTML injection
 
 
-### Enterprise Applications
+### Enterprise Applications (Creates related Backlinks automatically)
 
 - **E-commerce**: Link product pages to related items automatically
 - **News Sites**: Connect breaking news to background articles
@@ -68,9 +68,9 @@ This project solves critical SEO challenges that enterprise websites face:
 ### Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/ai-internal-linking
-cd ai-internal-linking
+# Clone the notebook from this repository and conduct the necessary steps
+git clone https://github.com/your-username/intelli-internal-linking
+cd intelli-internal-linking
 
 # Install dependencies
 pip install sentence-transformers chromadb networkx beautifulsoup4
@@ -82,12 +82,13 @@ python -m spacy download en_core_web_sm
 ```
 
 
-### Google Colab Setup (Recommended)
+### Google Colab Setup (Recommended/Used)
 
 ```python
 # Run in Google Colab - no local installation needed
 !pip install sentence-transformers chromadb networkx beautifulsoup4
-from google.colab import drive
+pip install -other necessary libraries 
+from google.colab import drive #create drive folder 
 drive.mount('/content/drive')
 ```
 
@@ -99,7 +100,7 @@ drive.mount('/content/drive')
 ```python
 from ai_link_recommender import collect_test_data
 
-# Collect 1000+ pages for testing
+# Collect 1000+ pages for testing #wikipedia api used in notebook
 test_data = collect_test_data(
     categories=['Machine Learning', 'Web Development', 'SEO'],
     pages_per_category=300
@@ -116,7 +117,7 @@ from sentence_transformers import SentenceTransformer
 import chromadb
 
 # Initialize AI model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-MiniLM-L6-v2') #for embedding 
 
 # Create vector database
 client = chromadb.Client()
@@ -203,16 +204,6 @@ graph TD
 | **Content Processing** | BeautifulSoup | HTML parsing \& content extraction |
 | **Evaluation Framework** | Scikit-learn | Performance metrics \& quality assessment |
 
-## 📊 Performance Metrics
-
-### Benchmark Results (1M+ Pages)
-
-| Metric | Manual Process | AI System | Improvement |
-| :-- | :-- | :-- | :-- |
-| **Processing Time** | 6-8 weeks | 2-4 hours | **420x faster** |
-| **Link Discovery** | 500-1K links | 50K+ links | **100x more** |
-| **Relevance Accuracy** | 60-70% | 85%+ | **21% better** |
-| **Coverage Rate** | 10-20% | 95%+ | **475% increase** |
 
 ### Real-World Impact
 
@@ -341,7 +332,7 @@ print(f"System Performance: {results['overall_score']}/100")
 ```
 
 
-### Quality Metrics
+### Quality Metrics (Proposed to achieve)
 
 ```python
 {
@@ -353,6 +344,14 @@ print(f"System Performance: {results['overall_score']}/100")
 }
 ```
 
+### Historic Data metrics 🗺
+* Before and after crawl comparison code is used to measure the real-time performance evaluation of the ai-link generator
+* The implementation steps for historic data crawl are : * Pre-implementation Baseline
+* * Post implementation result
+  * * Screaming frog testing🐸
+    * *Log file analysis Testing enterprise evaluation
+    * * Enchanced evaluation framework
+  
 
 ## 🤝 Contributing
 
