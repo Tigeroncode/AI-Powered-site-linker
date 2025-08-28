@@ -301,9 +301,9 @@ print(f"System Performance: {results['overall_score']}/100")
 * The implementation steps for historic data crawl are :
 * * Pre-implementation Baseline
 * * Post implementation result
-  * * Screaming frog testing🐸
-    * *Log file analysis Testing enterprise evaluation
-    * * Enchanced evaluation framework
+* * Screaming frog testing🐸
+* * Log file analysis Testing enterprise evaluation
+* * Enchanced evaluation framework
   
 ### Quality Metrics (Proposed to achieve)
 
