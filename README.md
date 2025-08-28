@@ -264,41 +264,6 @@ SIMILARITY_METRIC = 'cosine'          # Distance calculation method
 
 ## 📈 Usage Examples
 
-### Enterprise E-commerce Implementation
-
-```python
-# Process 500K product pages
-ecommerce_recommender = AILinkRecommender(
-    threshold=0.8,  # Higher precision for commercial
-    max_links=3     # Conservative linking
-)
-
-# Focus on high-value products
-priority_products = identify_high_revenue_pages()
-recommendations = ecommerce_recommender.bulk_process(priority_products)
-
-# Integrate with CMS
-for product_url, links in recommendations.items():
-    cms.inject_related_products(product_url, links)
-```
-
-
-### News Site Content Discovery
-
-```python
-# Link breaking news to background articles
-news_recommender = AILinkRecommender(
-    model='all-mpnet-base-v2',  # Better for news content
-    threshold=0.7,
-    temporal_boost=True  # Prioritize recent content
-)
-
-# Daily content processing
-daily_articles = get_articles_last_24h()
-contextual_links = news_recommender.find_story_connections(daily_articles)
-```
-
-
 ### SaaS Documentation Linking
 
 ```python
@@ -331,7 +296,14 @@ results = run_full_evaluation(
 print(f"System Performance: {results['overall_score']}/100")
 ```
 
-
+### Historic Data metrics 🗺
+* Before and after crawl comparison code is used to measure the real-time performance evaluation of the ai-link generator
+* The implementation steps for historic data crawl are : * Pre-implementation Baseline
+* * Post implementation result
+  * * Screaming frog testing🐸
+    * *Log file analysis Testing enterprise evaluation
+    * * Enchanced evaluation framework
+  
 ### Quality Metrics (Proposed to achieve)
 
 ```python
@@ -343,16 +315,6 @@ print(f"System Performance: {results['overall_score']}/100")
     'memory_efficiency': '2.1GB/10K' # Resource utilization
 }
 ```
-
-### Historic Data metrics 🗺
-* Before and after crawl comparison code is used to measure the real-time performance evaluation of the ai-link generator
-* The implementation steps for historic data crawl are : * Pre-implementation Baseline
-* * Post implementation result
-  * * Screaming frog testing🐸
-    * *Log file analysis Testing enterprise evaluation
-    * * Enchanced evaluation framework
-  
-
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
