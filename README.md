@@ -298,7 +298,8 @@ print(f"System Performance: {results['overall_score']}/100")
 
 ### Historic Data metrics 🗺
 * Before and after crawl comparison code is used to measure the real-time performance evaluation of the ai-link generator
-* The implementation steps for historic data crawl are : * Pre-implementation Baseline
+* The implementation steps for historic data crawl are :
+* * Pre-implementation Baseline
 * * Post implementation result
   * * Screaming frog testing🐸
     * *Log file analysis Testing enterprise evaluation
