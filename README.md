@@ -295,7 +295,7 @@ print(f"System Performance: {results['overall_score']}/100")
 * Before and after crawl comparison code is used to measure the real-time performance evaluation of the ai-link generator
 * The implementation steps for historic data crawl are :
 * * Pre-implementation Baseline
-  * ```python
+    ```python
     def measure_seo_impact():
     # 1. Crawl the site to establish a performance baseline
     baseline_data = run_site_crawl("before_changes")
@@ -318,7 +318,7 @@ print(f"System Performance: {results['overall_score']}/100")
     }
     ```
 * * Post implementation result
-  * ```python
+    ```python
     def analyze_seo_impact(baseline_data, wait_weeks=4):
     """
     Analyzes SEO impact by comparing new data to a baseline after a waiting period.
@@ -350,7 +350,7 @@ print(f"System Performance: {results['overall_score']}/100")
     return report
     ```
 * * Screaming frog testing🐸
-  * ```python
+    ```python
     def run_crawl_comparison_analysis():
     """
     Measures SEO improvements by comparing two website crawls.
@@ -374,7 +374,7 @@ print(f"System Performance: {results['overall_score']}/100")
     }
     ```
 * * Log file analysis Testing enterprise evaluation
-  * ```python
+   ```python
     def analyze_crawl_budget():
     """Analyzes server logs for crawl optimization insights."""
     # This process assumes server logs are parsed and analyzed.
