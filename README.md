@@ -467,15 +467,14 @@ Currently under GNU license ( Subject to change)
 
 [^1]: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
 
-[^2]: https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[^2]: https://colab.research.google.com/
 
-[^3]: https://github.com/topics/project-documentation
-
+[^3]: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/main
 [^4]: https://github.com/mkdocs/mkdocs
 
-[^5]: https://eheidi.dev/tech-writing/20221212_documentation-101/
+[^5]:https://en.wikipedia.org/api/rest_v1/
 
-[^6]: https://github.com/gabyx/Technical-Markdown
+[^6]: https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.link_analysis.pagerank_alg.pagerank.html
 
 [^7]: https://github.com/matiassingers/awesome-readme
 
