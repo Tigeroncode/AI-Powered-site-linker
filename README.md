@@ -1,4 +1,4 @@
-# Intelli-internal-linking
+# AI-powered simulated backlink generator
 An ai script that automates  sitemaps for creating backlinks that better the google search index scores for websites (sourced from AI) 
 
 # AI-Powered Internal Linking \& Sitemap Generation System
