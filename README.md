@@ -235,7 +235,7 @@ flowchart TB
 
 
 ### Core Components
-
+```mermaid
 | Component | Technology | Purpose |
 | :-- | :-- | :-- |
 | **Semantic AI** | SentenceTransformers | Content understanding \& meaning extraction |
@@ -243,8 +243,7 @@ flowchart TB
 | **Graph Analytics** | NetworkX | PageRank scoring \& link relationship analysis |
 | **Content Processing** | BeautifulSoup | HTML parsing \& content extraction |
 | **Evaluation Framework** | Scikit-learn | Performance metrics \& quality assessment |
-
-
+'''
 
 
 
