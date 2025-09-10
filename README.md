@@ -202,13 +202,13 @@ flowchart TB
   end
 
   %% Semantic pipeline
-  A --> C[SentenceTransformers → Semantic Embeddings]
+  A --> C[SentenceTransformers -> Semantic Embeddings]
   C --> D[ChromaDB Vector Store]
 
-  %% Log → Graph pipeline
+  %% Log -> Graph pipeline
   B --> E[Log Parser: request, referrer, UA, status]
-  E --> F[Edge Extraction: referrer → request]
-  F --> G[Edge Weights = frequency × freshness × quality]
+  E --> F[Edge Extraction: referrer -> request]
+  F --> G[Edge Weights = frequency x freshness x quality]
   G --> H[Weighted Directed Graph]
 
   %% Scoring
@@ -216,7 +216,7 @@ flowchart TB
   D --> J[Semantic Similarity Candidates]
   I --> K[AI Link Recommender]
   J --> K
-  L[Stale Content Detection: low PR × low recency] --> K
+  L[Stale Content Detection: low PR x low recency] --> K
 
   %% Outputs
   K --> M[Smart Internal Links (contextual anchors)]
@@ -233,6 +233,7 @@ flowchart TB
   P --> R
   Q --> R
   R --> B
+
 ```
 
 ### Core Components
