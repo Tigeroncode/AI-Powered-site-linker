@@ -193,6 +193,7 @@ graph TD
     E --> K[HTML Link Injection]
 ```
 ###graph-2 visualisation
+```mermaid
 flowchart TB
   %% Ingest
   subgraph Ingest
@@ -232,10 +233,10 @@ flowchart TB
   P --> R
   Q --> R
   R --> B
-
+```
 
 ### Core Components
-```mermaid
+
 | Component | Technology | Purpose |
 | :-- | :-- | :-- |
 | **Semantic AI** | SentenceTransformers | Content understanding \& meaning extraction |
@@ -243,7 +244,6 @@ flowchart TB
 | **Graph Analytics** | NetworkX | PageRank scoring \& link relationship analysis |
 | **Content Processing** | BeautifulSoup | HTML parsing \& content extraction |
 | **Evaluation Framework** | Scikit-learn | Performance metrics \& quality assessment |
-'''
 
 
 
