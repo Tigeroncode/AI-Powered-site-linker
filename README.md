@@ -95,7 +95,7 @@ drive.mount('/content/drive')
 
 ## ⚡ Quick Start
 
-### 1. Data Collection (Wikipedia + Synthetic)
+### 1. Data Collection  (Synthetic)
 
 ```python
 from ai_link_recommender import collect_test_data
@@ -192,6 +192,46 @@ graph TD
     E --> J[XML Sitemap Generation]
     E --> K[HTML Link Injection]
 ```
+###graph-2 visualisation
+flowchart TB
+  %% Ingest
+  subgraph Ingest
+    A[Raw Website Content]
+    B[Access Logs (Combined Log Format)]
+  end
+
+  %% Semantic pipeline
+  A --> C[SentenceTransformers → Semantic Embeddings]
+  C --> D[ChromaDB Vector Store]
+
+  %% Log → Graph pipeline
+  B --> E[Log Parser: request, referrer, UA, status]
+  E --> F[Edge Extraction: referrer → request]
+  F --> G[Edge Weights = frequency × freshness × quality]
+  G --> H[Weighted Directed Graph]
+
+  %% Scoring
+  H --> I[NetworkX PageRank (weighted + personalization)]
+  D --> J[Semantic Similarity Candidates]
+  I --> K[AI Link Recommender]
+  J --> K
+  L[Stale Content Detection: low PR × low recency] --> K
+
+  %% Outputs
+  K --> M[Smart Internal Links (contextual anchors)]
+  K --> N[HTML Link Injection (templates/CMS)]
+  K --> O[XML Sitemap Generation]
+
+  %% Distribution
+  O --> P[robots.txt: Sitemap directive]
+  O --> Q[Submit in Search Console]
+
+  %% Feedback
+  M --> R[Improved crawl & discovery]
+  N --> R
+  P --> R
+  Q --> R
+  R --> B
 
 
 ### Core Components
